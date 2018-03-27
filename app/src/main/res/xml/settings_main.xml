@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="Date Range"
+        android:defaultValue="@string/settings_one_week"
+        android:entries="@array/date_range_array"
+        android:entryValues="@array/date_range_values_array"
+        android:key="@string/date_range_key"
+        android:summary="@string/settings_prompt_text" />
+</PreferenceScreen>

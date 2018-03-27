@@ -1,0 +1,34 @@
+<resources>
+    <string name="base_url">https://api.themoviedb.org/3</string>
+    <string name="config_path">configuration</string>
+    <string name="discover_path">discover</string>
+    <string name="movie_path">movie</string>
+
+    <string name="app_name">SickFlick</string>
+
+    <string name="activity_watchlist_title">Watchlist</string>
+
+    <string name="activity_detailed_movie_rating">Rating:</string>
+    <string name="activity_detailed_movie_vote_count"># of Votes:</string>
+    <string name="activity_detailed_movie_release_date">Release Date:</string>
+
+    <string name="menu_main_watchlist">Watchlist</string>
+    <string name="menu_main_refresh">Refresh</string>
+    <string name="menu_main_settings">Settings</string>
+
+    <string name="menu_detailed_movie_save">Save Movie</string>
+    <string name="menu_detailed_movie_saved">Movie Saved</string>
+    <string name="menu_detailed_movie_delete">Delete Movie</string>
+
+
+    <string name="activity_settings_title">SickFlick Settings</string>
+    <string name="date_range_key">date_range</string>
+    <string name="settings_one_week">week</string>
+    <string name="settings_two_weeks">two weeks</string>
+    <string name="settings_four_weeks">four weeks</string>
+    <string name="settings_six_weeks">six weeks</string>
+    <string name="settings_prompt_text">Display movies released in the last</string>
+
+    <string name="no_network">No Internet Connection</string>
+    <string name="no_movies">No Movies Found</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MovieDetailsActivity">
+
+    <item
+        android:id="@+id/menu_detailed_movie_save"
+        android:icon="@drawable/ic_save"
+        android:title="@string/menu_detailed_movie_save"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_detailed_movie_saved"
+        android:icon="@drawable/ic_saved"
+        android:title="@string/menu_detailed_movie_saved"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_detailed_movie_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/menu_detailed_movie_delete"
+        app:showAsAction="ifRoom" />
+</menu>
